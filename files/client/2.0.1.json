@@ -1,0 +1,61 @@
+{
+  "libraries": [
+    "https://libraries.minecraft.net/com/mojang/authlib/1.5.25/authlib-1.5.25.jar",
+    "https://libraries.minecraft.net/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar",
+    "https://libraries.minecraft.net/com/paulscode/codecwav/20101023/codecwav-20101023.jar",
+    "https://libraries.minecraft.net/commons-codec/commons-codec/1.10/commons-codec-1.10.jar",
+    "https://libraries.minecraft.net/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar",
+    "https://libraries.minecraft.net/commons-io/commons-io/2.5/commons-io-2.5.jar",
+    "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar",
+    "https://libraries.minecraft.net/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar",
+    "https://libraries.minecraft.net/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar",
+    "https://libraries.minecraft.net/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar",
+    "https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar",
+    "https://libraries.minecraft.net/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar",
+    "https://libraries.minecraft.net/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar",
+    "https://libraries.minecraft.net/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar",
+    "https://repo1.maven.org/maven2/org/realityforge/javax/annotation/javax.annotation/1.0.1/javax.annotation-1.0.1.jar",
+    "https://libraries.minecraft.net/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar",
+    "https://libraries.minecraft.net/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar",
+    "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar",
+    "https://repo1.maven.org/maven2/org/jsoup/jsoup/1.16.1/jsoup-1.16.1.jar",
+    "https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar",
+    "https://libraries.minecraft.net/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar",
+    "https://libraries.minecraft.net/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar",
+    "https://libraries.minecraft.net/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar",
+    "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar",
+    "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar",
+    "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar",
+    "https://libraries.minecraft.net/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar",
+    "https://libraries.minecraft.net/oshi-project/oshi-core/1.1/oshi-core-1.1.jar",
+    "https://libraries.minecraft.net/com/mojang/patchy/1.3.9/patchy-1.3.9.jar",
+    "https://libraries.minecraft.net/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar",
+    "https://nexus.velocitypowered.com/repository/maven-public/com/mojang/realms/1.13.9/realms-1.13.9.jar",
+    "https://maven.scijava.org/content/repositories/public/me/carleslc/Simple-YAML/Simple-Yaml/1.8.4/Simple-Yaml-1.8.4.jar",
+    "https://libraries.minecraft.net/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar",
+    "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar"
+  ],
+  "assets": {
+    "url": "https://piston-meta.mojang.com/v1/packages/a21e1ded1a24ea1548dd8db0cf30b6acb02655a9/1.12.json",
+    "id": "1.12"
+  },
+  "natives": [
+      "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-%os_name%.jar",
+      "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-%os_name%.jar",
+      "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-%os_name%.jar"
+  ],
+  "log4j": "https://piston-data.mojang.com/v1/objects/bd65e7d2e3c237be76cfbef4c2405033d7f91521/client-1.12.xml",
+  "java": "https://download.java.net/openjdk/jdk8u44/ri/openjdk-8u44-windows-i586.zip",
+  "client": {
+    "version": "2.1.0",
+    "data": "00.00.2000",
+    "changelog": [
+      "line1",
+      "line2"
+    ],
+    "clientJars": [
+      "https://krytickyt.github.io/NeoWare/client.jar",
+      "https://krytickyt.github.io/NeoWare/assets.jar"
+    ]
+  }
+}
