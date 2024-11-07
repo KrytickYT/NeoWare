@@ -47,8 +47,8 @@
   "log4j": "https://piston-data.mojang.com/v1/objects/bd65e7d2e3c237be76cfbef4c2405033d7f91521/client-1.12.xml",
   "java": "https://download.java.net/openjdk/jdk8u44/ri/openjdk-8u44-windows-i586.zip",
   "client": {
-    "version": "2.1.0",
-    "data": "00.00.2000",
+    "version": "2.0.1",
+    "data": "19.08.2024",
     "changelog": [
       "line1",
       "line2"
