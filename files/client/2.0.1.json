@@ -49,10 +49,6 @@
   "client": {
     "version": "2.0.1",
     "data": "19.08.2024",
-    "changelog": [
-      "line1",
-      "line2"
-    ],
     "clientJars": [
       "https://krytickyt.github.io/NeoWare/client.jar",
       "https://krytickyt.github.io/NeoWare/assets.jar"
