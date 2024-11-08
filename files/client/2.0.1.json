@@ -42,8 +42,8 @@
   ],
   "log4j": "https://piston-data.mojang.com/v1/objects/bd65e7d2e3c237be76cfbef4c2405033d7f91521/client-1.12.xml",
   "java": {
-    "url": "https://download.java.net/openjdk/jdk8u44/ri/openjdk-8u44-windows-i586.zip",
-    "name": "java-se-8u44-ri"
+    "url": "https://download.java.net/openjdk/jdk11.0.0.2/ri/openjdk-11.0.0.2_windows-x64.zip",
+    "name": "jdk-11.0.0.2"
   },
   "client": {
     "version": "2.0.1",
