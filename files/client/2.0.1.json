@@ -42,7 +42,10 @@
       "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-%os_name%.jar"
   ],
   "log4j": "https://piston-data.mojang.com/v1/objects/bd65e7d2e3c237be76cfbef4c2405033d7f91521/client-1.12.xml",
-  "java": "https://download.java.net/openjdk/jdk8u44/ri/openjdk-8u44-windows-i586.zip",
+  "java": {
+    "url": "https://download.java.net/openjdk/jdk8u44/ri/openjdk-8u44-windows-i586.zip",
+    "name": "java-se-8u44-ri"
+  },
   "client": {
     "version": "2.0.1",
     "data": "19.08.2024",
