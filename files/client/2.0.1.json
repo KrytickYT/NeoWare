@@ -46,7 +46,7 @@
       "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-%os_name%.jar",
       "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-%os_name%.jar"
   ],
-  "log4j": "https://piston-data.mojang.com/v1/objects/bd65e7d2e3c237be76cfbef4c2405033d7f91521/client-1.12.xml",
+  "log4j": "https://krytickyt.github.io/NeoWare/files/client/5498f1af099f2bc44a99ebe060183bd5/client-1.12.xml",
   "java": {
     "url": "https://download.java.net/openjdk/jdk11.0.0.2/ri/openjdk-11.0.0.2_windows-x64.zip",
     "name": "jdk-11.0.0.2"
