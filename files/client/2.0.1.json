@@ -46,7 +46,7 @@
   "client": {
     "version": "2.0.1",
     "data": "19.08.2024",
-    "clientJars": [
+    "files": [
       "https://krytickyt.github.io/NeoWare/files/client/ee3e4bba96787ea941e32d6903a3bc40/client.jar",
       "https://krytickyt.github.io/NeoWare/files/client/e30dfd00aec9e892629bd212dbfb662c/assets.jar"
     ]
