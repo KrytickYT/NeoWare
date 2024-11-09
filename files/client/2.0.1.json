@@ -38,7 +38,7 @@
     "https://krytickyt.github.io/NeoWare/files/client/8e6091f750c8510a6d6aeb99ebcbe47d/downgraded-ViaVersion-5.0.2-SNAPSHOT.jar",
     "https://krytickyt.github.io/NeoWare/files/client/f0b900974d94db502dca4665f44009f6/downgraded-ViaRewind-4.0.1-SNAPSHOT.jar",
     "https://krytickyt.github.io/NeoWare/files/client/fe503b57ce163587d5e98a57551d1651/downgraded-ViaBackwards-5.0.2-SNAPSHOT.jar",
-    "https://krytickyt.github.io/NeoWare/files/client/d78aacf5f2de5b52f1a327470efd1ad7/downgraded-snakeyaml-2.2.jar",
+    "https://krytickyt.github.io/NeoWare/files/client/d78aacf5f2de5b52f1a327470efd1ad7/downgraded-snakeyaml-2.2.jar"
   ],
   "assets": "https://piston-meta.mojang.com/v1/packages/a21e1ded1a24ea1548dd8db0cf30b6acb02655a9/1.12.json",
   "natives": [
