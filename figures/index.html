@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <link rel="icon" type="image/png" href="/NeoWare/img/logo.png" />
+      <title>NeoWare - Фигуры</title>
+      <meta charset="UTF-8">
+      <meta content="NeoWare - лучший б0т клиент Minecraft" name="description">
+      <meta content="Neo NeoWare NW minecraft Неовар krytickyt" name="keywords">
+      <meta name="description" content="Лучший Minecraft клиент">
+      <meta property="og:title" content="NeoWare - Рисовалка">
+      <meta property="og:description" content="Лучший Minecraft клиент">
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="/NeoWare/img/logo.png" />
+      <meta name="theme-color" content="#AD069B" />
+      <link href="/NeoWare/vendor/bootstrap/css/bootstrap.min.css">
+      <link href="/NeoWare/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="/NeoWare/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+      <link href="/NeoWare/vendor/aos/aos.css" rel="stylesheet">
+      <link href="/NeoWare/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+      <link href="/NeoWare/css/main.css" rel="stylesheet">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link href="/NeoWare/snowFlakes/snow.min.css" rel="stylesheet">
+   </head>
+   <body class="index-page">
+      <script src="/NeoWare/snowFlakes/Snow.js"></script>
+      <script>
+         const now = new Date();
+         const currentMonth = now.getMonth();
+         if (currentMonth === 10 || currentMonth === 11 || currentMonth === 0 || currentMonth === 1) {
+             new Snow({
+                 showSnowBalls: false,
+                 countSnowflake: 30,
+             });}
+      </script>
+      <header>
+         <div>
+            <header id="header" class="header d-flex align-items-center fixed-top ">
+               <div class="container-fluid container-xl position-relative d-flex align-items-center">
+                  <a href="/NeoWare/" class="logo d-flex align-items-center me-auto">
+                     <img src="/NeoWare/img/logo.png" alt="NW">
+                     <h1>NeoWare</h1>
+                  </a>
+                  <nav id="navmenu" class="navmenu">
+                     <ul>
+                        <li><a href="/NeoWare/">Главная<br></a></li>
+                        <li><a href="#">Капча</a></li>
+                        <li><a href="https://krytickyt.github.io/NeoWareWiki">Wiki</a></li>
+                     </ul>
+                     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                  </nav>
+               </div>
+            </header>
+         </div>
+      </header>
+      <main class="container" style="flex-grow: 1; margin-top: 10%; min-height: 100vh; opacity: 100;" data-aos="zoom-out">
+         <div>
+            <p class="text-center fw-bold fs-3">Построение фигуры для ботов</p>
+            <p class="text-center">На данной странице вы можете фигуру для построения ботов в игре.</p>
+            <p class="text-center">ЛКМ - установка точки, ПКМ - установка центра относительно вас</p>
+            <br>
+         </div>
+         <style>
+            .gridc {
+            margin-top: 20px;
+            margin-left: 19.3%;
+            display: grid;
+            grid-template-columns: repeat(20, 40px);
+            grid-template-rows: repeat(20, 40px);
+            gap: 5px;
+            }
+            .buttonc {
+            width: 40px;
+            height: 40px;
+            background-color: green;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            }
+            .buttonc.blue-outline {
+            border: 2px solid blue;
+            background-color: green;
+            }
+         </style>
+         <div class="gridc" id="gridc"></div>
+         <div class="text-center" style="margin-top: 20px">
+            <button id="resetButton" style="margin-right: 20px">Сброс</button>
+            <button id="showCoordsButton">Сохранить</button>
+         </div>
+         <script>
+const _0x593754=_0x5e74;function _0x4be9(){const _0x43ea29=['style','549535JNrUYM','forEach','showCoordsButton','getElementById','log','createElement','length','row','createObjectURL','26688EZmMRX','.buttonc','body','dataset','blue-outline','212vaxTZx','className','substr','download','gridc','2148630jXdbhc','button','removeChild','131468nLgKCs','click','querySelectorAll','157222klheeN','10tAPoWm','563022XmMTqd','20070rwVusD','8fblvvY','white','backgroundColor','col','repeat','stringify','remove','green','resetButton','classList','addEventListener','290IoEzhm','buttonc','appendChild'];_0x4be9=function(){return _0x43ea29;};return _0x4be9();}(function(_0x5cc0cb,_0x361001){const _0x5ca53e=_0x5e74,_0x32bf3a=_0x5cc0cb();while(!![]){try{const _0x5c01d6=-parseInt(_0x5ca53e(0xa0))/0x1+-parseInt(_0x5ca53e(0x9d))/0x2+-parseInt(_0x5ca53e(0xa3))/0x3*(-parseInt(_0x5ca53e(0x95))/0x4)+-parseInt(_0x5ca53e(0xaf))/0x5*(-parseInt(_0x5ca53e(0x90))/0x6)+parseInt(_0x5ca53e(0xb3))/0x7*(-parseInt(_0x5ca53e(0xa4))/0x8)+-parseInt(_0x5ca53e(0xa2))/0x9*(-parseInt(_0x5ca53e(0xa1))/0xa)+-parseInt(_0x5ca53e(0x9a))/0xb;if(_0x5c01d6===_0x361001)break;else _0x32bf3a['push'](_0x32bf3a['shift']());}catch(_0x50cb46){_0x32bf3a['push'](_0x32bf3a['shift']());}}}(_0x4be9,0x2b891));const grid=document['getElementById'](_0x593754(0x99)),resetButton=document[_0x593754(0xb6)](_0x593754(0xac)),showCoordsButton=document[_0x593754(0xb6)](_0x593754(0xb5));let centerLocation=null;function _0x5e74(_0x2df2ca,_0x185c33){const _0x4be9aa=_0x4be9();return _0x5e74=function(_0x5e74e0,_0x403eb3){_0x5e74e0=_0x5e74e0-0x8b;let _0x3dcc93=_0x4be9aa[_0x5e74e0];return _0x3dcc93;},_0x5e74(_0x2df2ca,_0x185c33);}for(let row=0x1;row<=0x14;row++){for(let col=0x1;col<=0x14;col++){const button=document[_0x593754(0x8c)](_0x593754(0x9b));button[_0x593754(0x96)]=_0x593754(0xb0),button[_0x593754(0x93)][_0x593754(0x8e)]=row,button[_0x593754(0x93)]['col']=col,button[_0x593754(0xb2)][_0x593754(0xa6)]=_0x593754(0xab),button[_0x593754(0xae)](_0x593754(0x9e),function(){const _0x493c82=_0x593754;button[_0x493c82(0xb2)][_0x493c82(0xa6)]===_0x493c82(0xab)?button[_0x493c82(0xb2)][_0x493c82(0xa6)]='white':button[_0x493c82(0xb2)][_0x493c82(0xa6)]=_0x493c82(0xab);}),button[_0x593754(0xae)]('contextmenu',function(_0x5962fa){const _0x5aff2c=_0x593754;_0x5962fa['preventDefault'](),centerLocation&&centerLocation[_0x5aff2c(0xad)][_0x5aff2c(0xaa)](_0x5aff2c(0x94)),button[_0x5aff2c(0xad)]['add'](_0x5aff2c(0x94)),centerLocation=button;}),grid[_0x593754(0xb1)](button);}}resetButton[_0x593754(0xae)](_0x593754(0x9e),function(){const _0x3d7b99=_0x593754,_0x126815=document[_0x3d7b99(0x9f)]('.buttonc');_0x126815[_0x3d7b99(0xb4)](_0x5d099e=>{const _0x4a565f=_0x3d7b99;_0x5d099e['style'][_0x4a565f(0xa6)]='green',_0x5d099e['classList'][_0x4a565f(0xaa)]('blue-outline');}),centerLocation=null;}),showCoordsButton['addEventListener'](_0x593754(0x9e),function(){const _0x1c86ec=_0x593754,_0xc3316b=document[_0x1c86ec(0x9f)](_0x1c86ec(0x91)),_0x975a94=[],_0x359121=[];for(let _0x1dd8b9=0x0;_0x1dd8b9<0x14;_0x1dd8b9++){_0x359121[_0x1dd8b9]='0'[_0x1c86ec(0xa8)](0x14);}_0xc3316b[_0x1c86ec(0xb4)](_0x156b70=>{const _0x12ad5b=_0x1c86ec;if(_0x156b70[_0x12ad5b(0xb2)][_0x12ad5b(0xa6)]===_0x12ad5b(0xa5)){const _0x32205a=parseInt(_0x156b70[_0x12ad5b(0x93)][_0x12ad5b(0x8e)],0xa),_0xfafdcb=parseInt(_0x156b70[_0x12ad5b(0x93)][_0x12ad5b(0xa7)],0xa);console[_0x12ad5b(0x8b)](_0x32205a+'x'+_0xfafdcb),console['log'](_0x359121[_0x32205a]),_0x359121[_0x32205a]=_0x500cce(_0x359121[_0x32205a],_0xfafdcb,'#');}});const _0x1699fe=centerLocation[_0x1c86ec(0x93)][_0x1c86ec(0xa7)],_0x115eaa=centerLocation[_0x1c86ec(0x93)][_0x1c86ec(0x8e)],_0x177646={'cx':parseInt(_0x1699fe,0xa),'cy':parseInt(_0x115eaa,0xa),'matrix':_0x359121};_0x213cd4('figure.json',JSON[_0x1c86ec(0xa9)](_0x177646));function _0x213cd4(_0x3274a1,_0x25813e){const _0x1f1c6a=_0x1c86ec,_0x50753a=new Blob([_0x25813e],{'type':'text/plain;charset=utf-8'}),_0x3003b7=URL[_0x1f1c6a(0x8f)](_0x50753a),_0x28c191=document[_0x1f1c6a(0x8c)]('a');_0x28c191['href']=_0x3003b7,_0x28c191[_0x1f1c6a(0x98)]=_0x3274a1,document[_0x1f1c6a(0x92)]['appendChild'](_0x28c191),_0x28c191[_0x1f1c6a(0x9e)](),document[_0x1f1c6a(0x92)][_0x1f1c6a(0x9c)](_0x28c191),URL['revokeObjectURL'](_0x3003b7);}function _0x500cce(_0x8187b1,_0x5b3827,_0x2db057){const _0x39a470=_0x1c86ec;if(_0x5b3827>_0x8187b1[_0x39a470(0x8d)]-0x1)return _0x8187b1;return _0x8187b1[_0x39a470(0x97)](0x0,_0x5b3827)+_0x2db057+_0x8187b1[_0x39a470(0x97)](_0x5b3827+0x1);}});
+         </script>
+      </main>
+      <div>
+         <footer>
+            <div>
+               <footer id="footer" class="footer">
+                  <div class="container footer-top">
+                     <div class="row gy-4">
+                        <div class="col-lg-4 col-md-6 footer-about" style="margin-left: auto; width: 17%;">
+                           <a href="/NeoWare/" class="d-flex align-items-center">
+                           <img src="/NeoWare/img/logo.png" class="px-2" alt="" width="50px;">
+                           <span>NeoWare</span>
+                           </a>
+                           <div class="footer-contact pt-3">
+                              <p>Мы никак не связаны с:</p>
+                              <p>Mojang Studios</p>
+                              <p>Microsoft</p>
+                              <p>и т.д.</p>
+                           </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 footer-links" style="margin-right: -30px;">
+                           <h4>Навигация</h4>
+                           <ul>
+                              <li><i class="bi bi-chevron-right"></i> <a href="/NeoWare/">Главная</a></li>
+                              <li><i class="bi bi-chevron-right"></i> <a href="/NeoWare/#faq">Вопросы</a></li>
+                              <li><i class="bi bi-chevron-right"></i> <a href="/NeoWare/#alt-features">Наши преимущества</a></li>
+                           </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-3 footer-links" style="margin-right: 30px;">
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                           <h4>Наши социальные сети</h4>
+                           <div class="social-links d-flex">
+                              <a href="https://www.youtube.com/@krytickyt" target="_blank" style="font-size: 25px;"><i class="bi bi-youtube"></i></a>
+                              <a href="https://discord.com/invite/37UVpdX8bn" target="_blank" style="font-size: 25px;"><i class="bi bi-discord"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="container copyright text-center mt-4">
+                     NeoWare ▪ 2023-2025
+                  </div>
+               </footer>
+            </div>
+         </footer>
+      </div>
+      </footer>
+      <a href="" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+      <script src="/NeoWare/vendor/glightbox/js/glightbox.min.js"></script>
+      <script src="/NeoWare/vendor/aos/aos.js"></script>
+      <script src="/NeoWare/js/main.js"></script>
+   </body>
+</html>
